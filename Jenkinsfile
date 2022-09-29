@@ -7,7 +7,7 @@ stages {
     }
 stage ('declarative Script Sample Pipeline'){
 
-steps{9jh 
+steps{
 sh "mvn package"
 }
 
