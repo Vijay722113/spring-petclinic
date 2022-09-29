@@ -3,7 +3,10 @@ agent any
 stages {
         stage('Test')
     {
-        sh'echo Vijay anand'
+      
+      steps{  
+        sh "echo Vijay anand"
+      }
     }
 stage ('declarative Script Sample Pipeline'){
 
